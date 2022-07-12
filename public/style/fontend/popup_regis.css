@@ -1,0 +1,23 @@
+.popip  {
+    position: fixed;
+    top: 100px;  
+    z-index: 999999;
+    border-radius: 6px;
+  }
+
+.popip span {
+    position: absolute;
+    right: 0;
+    top: -7px;
+    margin-right: -6px;
+    font-size: 12px;
+    padding: 0px 5px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+  @media (max-width: 768px) {
+    .popip {
+      display: none;
+    }
+  }

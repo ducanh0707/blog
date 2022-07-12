@@ -1,0 +1,146 @@
+.dangki-left button {
+    background-color: #0e3279;
+    border: 0px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+.comment-off {
+    opacity: 0.5;
+}
+img.avatar_comment {
+    width: 60px;
+}
+div#top_admin {
+    margin-bottom: 32px;
+}
+.consul-col {
+    background-color: #eef8fd;
+    padding: 10px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+}
+.service-price-hot {
+    font-size: 30px;
+    padding: 10px 0px;
+}
+.service-price {
+    padding: 10px 0px;
+}
+.service-hot{
+    background-color: #eaf6fd;
+}
+.service-content ul li{
+    position: relative;
+    display: block;
+    padding: 10px 0px;
+    margin-bottom: -1px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+}
+.service-content ul{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+#service {
+    font-size: 15px;
+    text-align: center;
+}
+
+.list-group-item {
+    padding: 10px 3px !important;
+}
+.service-col {
+   border: 1px solid #eaeaea;
+   position: relative;
+   margin: 100px 0px;
+}
+/*menu*/
+.menu-multi ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-multi ul li {
+  display: block;
+  position: relative;
+  float: left;
+}
+.menu-multi li ul {
+   display: none;
+   z-index: 10;
+}
+
+.menu-multi ul li a {
+  display: block;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.menu-multi li:hover > ul {
+  display: block;
+  position: absolute;
+}
+
+.menu-multi li:hover li { float: none; }
+.menu-multi .cl-menu-top li ul li { border-top: 0; }
+.menu-multi ul ul ul {
+  left: 100%;
+  top: 0;
+}
+.menu-multi ul:before,
+.menu-multi ul:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.menu-multi ul:after { clear: both; }
+/*menu*/
+
+/*menutop*/
+.l-menu-top ul li a {
+   padding: 8px 10px;
+   color:#fff;
+}
+.l-menu-top li ul {
+     background-color: #424a51;
+}
+/*menutop*/
+/*menu chinh*/
+.l-menu-main ul li a {
+    padding: 8px 10px 0px 10px;
+    color:#424a51;
+}
+.l-menu-main li ul {
+    background-color: #eee;
+}
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+/*menu chinh*/
+
+div#header {
+    padding: 20px 0px;
+}
+ul.general-ul {
+    list-style: none;
+}
+.func_more_icon {
+    font-size: 30px;
+}
+
+@media only screen and (min-width: 768px){
+   .service-hot {
+       position: absolute;
+       top: -66px;
+   }
+}
